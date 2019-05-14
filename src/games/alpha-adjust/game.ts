@@ -1,11 +1,9 @@
 /**
  * @author       Digitsensitive <digit.sensitivee@gmail.com>
- * @copyright    2018 Digitsensitive
+ * @copyright    2018 - 2019 digitsensitive
  * @description  Alpha Adjust
  * @license      Digitsensitive
  */
-
-/// <reference path="../../phaser.d.ts"/>
 
 import "phaser";
 import { GameScene } from "./scenes/game-scene";
@@ -23,7 +21,7 @@ const config: GameConfig = {
     mouse: true
   },
   backgroundColor: "#1d2b53",
-  render: { pixelArt: true, antialias: false, autoResize: false }
+  render: { pixelArt: true, antialias: false }
 };
 
 export class Game extends Phaser.Game {

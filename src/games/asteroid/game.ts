@@ -1,11 +1,9 @@
 /**
  * @author       Digitsensitive <digit.sensitivee@gmail.com>
- * @copyright    2018 Digitsensitive
+ * @copyright    2018 - 2019 digitsensitive
  * @description  Asteroid: Game
  * @license      Digitsensitive
  */
-
-/// <reference path="../../phaser.d.ts"/>
 
 import "phaser";
 import { BootScene } from "./scenes/bootScene";
@@ -34,7 +32,7 @@ const config: GameConfig = {
     }
   },
   backgroundColor: "#000000",
-  render: { pixelArt: false, antialias: true, autoResize: false }
+  render: { pixelArt: false, antialias: true }
 };
 
 export class Game extends Phaser.Game {

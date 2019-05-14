@@ -1,10 +1,8 @@
 /**
  * @author       Digitsensitive <digit.sensitivee@gmail.com>
- * @copyright    2018 Digitsensitive
+ * @copyright    2018 - 2019 digitsensitive
  * @license      Digitsensitive
  */
-
-/// <reference path="../phaser.d.ts"/>
 
 import "phaser";
 import { MainScene } from "./scenes/mainScene";

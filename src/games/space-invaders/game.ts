@@ -1,11 +1,9 @@
 /**
  * @author       Digitsensitive <digit.sensitivee@gmail.com>
- * @copyright    2018 Digitsensitive
+ * @copyright    2018 - 2019 digitsensitive
  * @description  Space Invaders
  * @license      Digitsensitive
  */
-
-/// <reference path="../../phaser.d.ts"/>
 
 import "phaser";
 import { BootScene } from "./scenes/boot-scene";
@@ -34,7 +32,7 @@ const config: GameConfig = {
     }
   },
   backgroundColor: "#f5cc69",
-  render: { pixelArt: true, antialias: false, autoResize: false }
+  render: { pixelArt: true, antialias: false }
 };
 
 export class Game extends Phaser.Game {

@@ -1,11 +1,9 @@
 /**
  * @author       Digitsensitive <digit.sensitivee@gmail.com>
- * @copyright    2018 Digitsensitive
+ * @copyright    2018 - 2019 digitsensitive
  * @description  Coin Runner
  * @license      Digitsensitive
  */
-
-/// <reference path="../../phaser.d.ts"/>
 
 import "phaser";
 import { GameScene } from "./scenes/game-scene";
@@ -23,7 +21,7 @@ const config: GameConfig = {
     keyboard: true
   },
   backgroundColor: "#3A99D9",
-  render: { pixelArt: false, antialias: false, autoResize: false }
+  render: { pixelArt: false, antialias: false }
 };
 
 export class Game extends Phaser.Game {

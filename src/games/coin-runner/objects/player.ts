@@ -1,27 +1,25 @@
 /**
  * @author       Digitsensitive <digit.sensitivee@gmail.com>
- * @copyright    2018 Digitsensitive
+ * @copyright    2018 - 2019 digitsensitive
  * @description  Coin Runner: Player
  * @license      Digitsensitive
  */
 
 export class Player extends Phaser.GameObjects.Image {
-  private currentScene: Phaser.Scene;
   private cursors: Phaser.Input.Keyboard.CursorKeys;
   private walkingSpeed: number;
 
   constructor(params) {
     super(params.scene, params.x, params.y, params.key);
 
-    this.initVariables(params);
+    this.initVariables();
     this.initImage();
     this.initInput();
 
-    this.currentScene.add.existing(this);
+    this.scene.add.existing(this);
   }
 
-  private initVariables(params): void {
-    this.currentScene = params.scene;
+  private initVariables(): void {
     this.walkingSpeed = 5;
   }
 
@@ -30,7 +28,7 @@ export class Player extends Phaser.GameObjects.Image {
   }
 
   private initInput(): void {
-    this.cursors = this.currentScene.input.keyboard.createCursorKeys();
+    this.cursors = this.scene.input.keyboard.createCursorKeys();
   }
 
   update(): void {

@@ -1,6 +1,6 @@
 /**
  * @author       Digitsensitive <digit.sensitivee@gmail.com>
- * @copyright    2018 Digitsensitive
+ * @copyright    2018 - 2019 digitsensitive
  * @description  Snake: Apple
  * @license      Digitsensitive
  */
@@ -12,7 +12,7 @@ export class Apple extends Phaser.GameObjects.Graphics {
     this.y = params.yPos;
     this.fillStyle(0x61e85b, 0.8);
     this.fillRect(params.fSize, params.fSize, params.fSize, params.fSize);
-    scene.add.existing(this);
+    this.scene.add.existing(this);
   }
 
   /**

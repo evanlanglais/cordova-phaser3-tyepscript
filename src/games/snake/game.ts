@@ -1,11 +1,9 @@
 /**
  * @author       Digitsensitive <digit.sensitivee@gmail.com>
- * @copyright    2018 Digitsensitive
+ * @copyright    2018 - 2019 digitsensitive
  * @description  Snake: Game
  * @license      Digitsensitive
  */
-
-/// <reference path="../../phaser.d.ts"/>
 
 import "phaser";
 import { BootScene } from "./scenes/bootScene";
@@ -29,7 +27,7 @@ const config: GameConfig = {
     gamepad: false
   },
   backgroundColor: "#000000",
-  render: { pixelArt: true, antialias: false, autoResize: false }
+  render: { pixelArt: true, antialias: false }
 };
 
 export class Game extends Phaser.Game {

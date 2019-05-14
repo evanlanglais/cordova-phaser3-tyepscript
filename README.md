@@ -9,6 +9,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/digitsensitive/phaser3-typescript.svg)](https://github.com/digitsensitive/phaser3-typescript/issues)
 [![GitHub stars](https://img.shields.io/github/stars/digitsensitive/phaser3-typescript.svg)](https://github.com/digitsensitive/phaser3-typescript/stargazers)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+[![Code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![GitHub license](https://img.shields.io/github/license/digitsensitive/phaser3-typescript.svg)](https://github.com/digitsensitive/phaser3-typescript)
 
 <div align="center">
@@ -52,7 +53,6 @@ Install the dependencies with this command-line:
 ```
 npm install
 ```
-> If you use yarn just replace `npm` with `yarn`
 
 ### Building and Running
 
@@ -61,7 +61,6 @@ Perform a quick build (bundle.js) and start server:
 ```
 npm run dev
 ```
-> If you use yarn just replace `npm` with `yarn`
 
 ## Game Examples
 
@@ -100,6 +99,10 @@ npm run dev
 ## Cheat Sheets
 
 - [Browse through the Cheat Sheets](https://github.com/digitsensitive/phaser3-typescript/blob/master/cheatsheets)
+
+## Tutorials
+
+- [Learn to create a HTML5 Game in 5 Minutes](https://medium.com/@digit.sensitivee/learn-to-create-a-html5-game-in-5-minutes-604118f5d0ab)
 
 ## External Resources
 

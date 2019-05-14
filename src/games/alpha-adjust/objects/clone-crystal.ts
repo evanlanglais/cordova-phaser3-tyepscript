@@ -1,25 +1,22 @@
 /**
  * @author       Digitsensitive <digit.sensitivee@gmail.com>
- * @copyright    2018 Digitsensitive
+ * @copyright    2018 - 2019 digitsensitive
  * @description  Alpha Adjust: Clone Crystal
  * @license      Digitsensitive
  */
 
 export class CloneCrystal extends Phaser.GameObjects.Image {
-  private currentScene: Phaser.Scene;
   private increaseAlpha: boolean;
 
   constructor(params) {
     super(params.scene, params.x, params.y, params.key);
 
-    this.initVariables(params);
+    this.initVariables();
     this.initImage();
-
-    this.currentScene.add.existing(this);
+    this.scene.add.existing(this);
   }
 
-  private initVariables(params): void {
-    this.currentScene = params.scene;
+  private initVariables(): void {
     this.increaseAlpha = false;
   }
 

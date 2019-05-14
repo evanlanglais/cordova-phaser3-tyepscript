@@ -5,8 +5,6 @@
  * @license      Digitsensitive
  */
 
-/// <reference path="../../phaser.d.ts"/>
-
 import "phaser";
 import { BootScene } from "./scenes/boot-scene";
 import { GameScene } from "./scenes/game-scene";
@@ -33,7 +31,7 @@ const config: GameConfig = {
     }
   },
   backgroundColor: "#000000",
-  render: { pixelArt: false, antialias: true, autoResize: false }
+  render: { pixelArt: false, antialias: true }
 };
 
 export class Game extends Phaser.Game {
