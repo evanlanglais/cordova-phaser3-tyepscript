@@ -33,9 +33,7 @@
   },
   "scripts": {
     "dev": "webpack --mode development && webpack-dev-server --mode development",
-    "build": "webpack --mode production && cordova prepare",
-    "dev-browser": "webpack --mode development && cordova prepare browser && cordova run browser",
-    "prod-browser": "webpack --mode production && cordova prepare browser && cordova run browser"
+    "build": "webpack --mode production && cordova prepare"
   },
   "repository": {
     "type": "git",
