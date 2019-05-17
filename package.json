@@ -1,7 +1,7 @@
 {
   "name": "cordova-phaser3-typescript",
   "version": "1.0.0",
-  "description": "Boilerplate project for a Typescript Phaser 3 game to be Cordova application with a Typescript Phaser 3",
+  "description": "Boilerplate project for a Typescript Phaser 3 game for deployment to mobile devices via Cordova",
   "keywords": [
     "Phaser",
     "Phaser 3",
@@ -10,12 +10,9 @@
     "Phaser-boilerplate",
     "TypeScript",
     "Webpack",
-    "Tutorials",
-    "Phaser-tutorial",
     "Game Examples",
     "Phaser-game",
     "Phaser-framework",
-    "Phaser3-example",
     "Cordova"
   ],
   "devDependencies": {
@@ -51,9 +48,6 @@
     }
   ],
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/digitsensitive/phaser3-typescript/issues"
-  },
   "homepage": "https://github.com/evanlanglais/cordova-phaser3-typescript#readme",
   "cordova": {
     "plugins": {
