@@ -14,9 +14,11 @@ After cloning and configuring the project, be sure to check out the [parent](htt
 ## Getting started
 
 ### Prerequisites
-
-```
 Download and install npm with Node.js @ https://nodejs.org/en
+
+Install Cordova utilizing npm after installation above
+```
+npm install -g cordova
 ```
 
 ### Installing
